@@ -12,23 +12,22 @@ const greeting = {
   username: "DKP",
   title: "Hi all, I'm Dushyant",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Full stack developer with over 2 years of experience building production ready applications and websites in Javascript and Python. I blog Tech, Markets, Algorithms and Productivity on DKProbes.Tech"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://link.dkp.today/resume",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dkp1903",
+  linkedin: "https://www.linkedin.com/in/dkp1903/",
+  gmail: "dushyantpathak6789@gmail.com",
+  facebook: "https://www.facebook.com/dkp1903",
+  medium: "https://medium.com/@dkp1903",
+  twitter: "https://twitter.com/dkp1903",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -36,11 +35,11 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle: "Passion about technology encourages me to stay updated with the newest and the coolest",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Deliver aesthetically pleasing websites, production ready apps and engaging content"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -114,25 +113,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "DA-IICT, Gandhinagar",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "BTech, Information and Communication Technology",
+      duration: "July 2017 - May 2021",
+      desc: "In the top 10% of my class.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led the Center for Entrepreneurship and Incubation",
+        "Led the institute web app team to develop, host and maintain the student government web app",
+        "Led the Gender Cell of the institute",
+        "Part of the Debate Club, Press Club and Dance Club",
+        "Served as Teaching Assistant for Science Technology and Society course, pioneering a restructuring to online mode due to COVID"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+
   ]
 };
 
@@ -142,16 +136,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "React", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Node",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "MongoDB",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "AWS",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Angular",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "PostgreSQL",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -163,33 +169,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Software Engineer Intern",
+      company: "Crio.do",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "Jan 2021 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Architecting experiential learning content and industry relevant codebases to help students be ready for real world software development",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a testing framework to automatically clone and test backend repos of 3000 students within an hour, using Python and AWS",
+        "Architected 8 full stack projects as part of the Crio Winter of Doing program, including requirement analysis, code architecture, PoC implementations",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Technology Analyst - Intern",
+      company: "Deutsche Bank",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      date: "May 2020 – June 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Responsible for the design, development and deployment of a stock broker dashboard app to allow stock brokers to view stock movements and analyses in real time, and record client transactions"
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -204,32 +202,22 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My projects",
+  subtitle: "Some projects that adorn my portfolio",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Expenso",
+      projectDesc: "A voice powered expense tracker app built using React, ChartJS, and Material UI",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Live application",
+          url: "http://expenso.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -244,9 +232,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "National Talent Search Scholar",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "One of only 750 students selected in that year, from all over India",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
@@ -266,32 +254,7 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -364,7 +327,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "dkp1903", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
